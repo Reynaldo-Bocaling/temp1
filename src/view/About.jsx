@@ -1,16 +1,43 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <section id="about" className="relative">
       <div className="relative max-w-[80%] mx-auto py-4">
-        <h1 className="gradient-text text-[1.5em] md:text-[3em] font-title text-4xl text-white font-bold py-7 text-center">
+        <motion.h1
+          initial={{ x: 0, opacity: 0 }}
+          whileInView={{ y: [100, 0], scale: [0, 1], opacity: [0, 1] }}
+          transition={{ duration: 1.5 }}
+          className="gradient-text text-[1.5em] md:text-[3em] font-title text-4xl text-white font-bold py-7 text-center"
+        >
           ABOUT THE TOKEN
-        </h1>
+        </motion.h1>
         <div className="about max-w-7xl mx-auto">
-          <img src="/img/hero.png" alt="" className="float-left w-[350px]" />
-          <p className="text-white text-xl m-auto">
+          <motion.img
+            initial={{ y: 0, opacity: 0 }}
+            whileInView={{
+              y: [-250, 0],
+              rotate: ["550deg", 0],
+              scale: [0, 1],
+              opacity: [0.5, 1],
+            }}
+            transition={{ duration: 1.5 }}
+            src="/img/hero.png"
+            alt=""
+            className="float-left w-[350px]"
+          ></motion.img>
+          <motion.p
+            initial={{ y: 0, opacity: 0 }}
+            whileInView={{
+              x: [100, 0],
+
+              opacity: [0, 1],
+            }}
+            transition={{ duration: 1, delay: 1 }}
+            className="text-white text-xl m-auto"
+          >
             In today's volatile financial landscape, the allure of meme coins
             can be irresistible. These cryptocurrencies, often born from
             internet culture and hype, promise quick gains but come with
@@ -29,7 +56,7 @@ const About = () => {
             <span className="text-[#72ff0d] text-2xl font-bold">
               If we listen, we can understand that it is a store of value.
             </span>
-          </p>
+          </motion.p>
         </div>
         <Marquee direction="right" className="absolute bottom-7">
           {Array.from({ length: 100 }, (_, i) => (
