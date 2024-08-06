@@ -38,7 +38,7 @@ const HowToBuy = () => {
         </div>
         <img
           src="/img/hero_Bg.jpg"
-          className="w-full h-[35rem] border-[2px] border-red-500"
+          className="w-full md:h-[35rem] border-[2px] border-red-500"
           alt=""
         />
         <ul className="mt-5 max-w-2xl ">
