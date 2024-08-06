@@ -11,9 +11,6 @@
     scroll-behavior: smooth;
 }
 
-.title {
-    font-family: "Sigmar One", sans-serif;
-}
 
 main {
     background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/img/bg.jpg');
@@ -44,64 +41,3 @@ main {
     border: 2px solid red;
     box-shadow: 0 0 20px red;
 }
-
-/* 
-#howtobuy::before {
-
-    content: '';
-    position: absolute;
-    top: -150px;
-    left: -120px;
-    width: 900px;
-    height: 500px;
-    border-radius: 50%;
-    background: radial-gradient(ellipse at center, hsla(0, 100%, 86%, 0.7),
-            transparent 64%);
-    z-index: -1;
-
-}
-
-#howtobuy::after {
-
-    content: '';
-    position: absolute;
-    top: -150px;
-    right: -120px;
-    width: 900px;
-    height: 500px;
-    border-radius: 50%;
-    background: radial-gradient(ellipse at center, hsla(210, 100%, 86%, 0.7),
-            transparent 64%);
-    z-index: -1;
-
-}
-
-#about::before {
-
-    content: '';
-    position: absolute;
-    top: -150px;
-    left: -120px;
-    width: 900px;
-    height: 500px;
-    border-radius: 50%;
-    background: radial-gradient(ellipse at center, hsla(0, 100%, 86%, 0.7),
-            transparent 64%);
-    z-index: -1;
-
-}
-
-#about::after {
-
-    content: '';
-    position: absolute;
-    top: -150px;
-    right: -120px;
-    width: 900px;
-    height: 500px;
-    border-radius: 50%;
-    background: radial-gradient(ellipse at center, hsla(210, 100%, 86%, 0.7),
-            transparent 64%);
-    z-index: -1;
-
-} */

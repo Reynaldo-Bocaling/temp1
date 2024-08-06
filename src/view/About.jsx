@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="relative">
       <div className="relative max-w-[80%] mx-auto py-4">
-        <h1 className="gradient-text text-[1.5em] md:text-[3em] title text-4xl text-white font-bold py-7 text-center">
+        <h1 className="gradient-text text-[1.5em] md:text-[3em] font-title text-4xl text-white font-bold py-7 text-center">
           ABOUT THE TOKEN
         </h1>
         <div className="about max-w-7xl mx-auto">

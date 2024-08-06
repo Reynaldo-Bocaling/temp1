@@ -13,7 +13,7 @@ const HowToBuy = () => {
           </p>
         </Marquee>
         <div className="">
-          <h1 className="gradient-text title text-[1.5em]  md:text-[3em] mb-3">
+          <h1 className="gradient-text font-title text-[1.5em]  md:text-[3em] mb-3">
             The Harry Potter Obama Sonic 10 Inu (Ticker:BITCOIN) Project
           </h1>
           <p className="text-white text-sm md:text-2xl py-3">
