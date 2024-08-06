@@ -4,11 +4,7 @@ export const hwoToBuy = [
   "If you want to Go Fast™ and check out the OKDEX below.",
 ];
 
-export const tokenomics = [
-  "The HPOS10I smart contract has 0 tax on all buys and sells.",
-  "The total supply of BITCOIN is 1,000,000,000.",
-  "Trust in BITCOIN.",
-];
+export const tokenomics = ["85% LP", "10% TREASURY", "5% CEX WALLET"];
 
 export const gallery = [
   "/img/img1.jpg",

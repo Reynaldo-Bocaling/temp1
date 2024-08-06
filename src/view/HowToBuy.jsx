@@ -5,27 +5,20 @@ const HowToBuy = () => {
   return (
     <section id="howtobuy" className="relative">
       <div className="max-w-[80%] mx-auto py-4">
-        <Marquee direction="right">
-          <p className="title title-font mx-10 text-red-100 text-lg font-bold flex items-center gap-5 my-4">
-            <img src="/img/cross.png" className="w-[40px]" alt="" />
-            I LOST MY LIFE SAVINGS AGAIN
-            <img src="/img/cross.png" className="w-[40px]" alt="" />
-          </p>
-        </Marquee>
         <div className="">
-          <h1 className="gradient-text font-title text-[1.5em]  md:text-[3em] mb-3">
-            The Harry Potter Obama Sonic 10 Inu (Ticker:BITCOIN) Project
+          <h1 className="gradient-text font-title text-[1.5em]  md:text-[3em] mb-3 py-5">
+            I LOST MY LIFE SAVINGS AGAIN
           </h1>
           <p className="text-white text-sm md:text-2xl py-3">
             ETH Token :{" "}
             <span className="text-[#0dffef] font-semibold">
-              0x72e4f9f808c49a2a61de9c5896298920dc4eeea9
+              0x344CV8SHS88SS666SBMSFFG
             </span>
           </p>
           <p className="text-white text-sm md:text-2xl py-3">
             BITCOIN on BASE:{" "}
             <span className="text-[#0dffef] font-semibold">
-              0x2a06A17CBC6d0032Cac2c6696DA90f29D39a1a29
+              0x2XSD7DD8999DD7SSS8SS88CCNSSKSSS7
             </span>
           </p>
           <p className="text-lg md:text-2xl text-white py-2">
